@@ -1,0 +1,58 @@
+footer {
+    padding: 50px 0;
+    background-color: #AFE970;
+}
+
+/* .logo{
+    font-weight: 700;
+    font-style: normal;
+    color: #46B91D !important;
+    font-size: 40px !important;
+} */
+
+.row {
+    position: relative;
+}
+
+footer p,a{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.signup-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.signup-footer .signup-btn{
+    border: 0;
+    background: #46B91D;
+    border-radius: 100px;
+    width: 120px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.signup-footer .signup-btn:hover{
+    background: #7DC22A;
+    /* color: #000; */
+
+}
+
+
+.footer-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-nav a{
+    font-size: 15px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.footer-nav a:hover {
+    color: #A4A4A4;
+}
