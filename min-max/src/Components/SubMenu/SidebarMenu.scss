@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+  color:#fff;
+
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  &__item {
+    padding: 20px 40px;
+    cursor: pointer;
+    display: block;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    font-size: 24px;
+    
+    &:hover {
+      background: #fff;
+      color: #7dc22a !important;
+    }
+    &:hover > a{
+      color: #7dc22a !important;
+    }
+
+    &-content {
+      font-size: 16px;
+      background: #5eb600;
+    }
+
+    &-child {
+      width: 100%;
+      padding: 20px 40px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        background-color: #7dc22a;
+      }
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

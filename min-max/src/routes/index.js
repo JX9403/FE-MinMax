@@ -14,6 +14,7 @@ export const routes = [
   {
     path: "/",
     element: <LayoutDefault/>,
+    // eslint-disable-next-line
     children: [
       {
         path: "/",
@@ -39,8 +40,8 @@ export const routes = [
           {
             path: "info-customer",
             element: <InfoCustomer />,
-          },
-        ],
+          }
+        ]
       },
       {
         path: "product",
@@ -53,7 +54,7 @@ export const routes = [
       {
         path: "contact",
         element: <Contact />,
-      },
-    ],
-  },
+      }
+    ]
+  }
 ];

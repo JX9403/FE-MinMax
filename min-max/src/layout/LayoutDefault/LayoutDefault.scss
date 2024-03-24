@@ -1,12 +1,13 @@
 .layout-default{
+display: block;
+  &__header{
+    height: 145px;
+  }
   &__main{
      display: flex;
-     margin-top: 145px;
-     
+
+     height: 100vh;
   }
  
-  &__content{
-    flex: 1;
-  }
 }
 

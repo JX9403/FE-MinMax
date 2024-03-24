@@ -1,11 +1,14 @@
-import SideBar from "../../Components/SideBar";
-import './ProductPage.scss'
+
+import Sidebar from "../../Components/Sidebar";
+import "./ProductPage.scss";
 function ProductPage() {
   return (
     <>
       <div className="productPage">
+        
         <div className="productPage__sideBar">
-          <SideBar />
+        <div className="productPage__title"> Danh mục </div>
+          <Sidebar />
         </div>
         <div className="productPage__content">Trang san pham</div>
       </div>
