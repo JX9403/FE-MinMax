@@ -1,6 +1,6 @@
 import "./LayoutDefault.scss";
 import { Outlet } from "react-router-dom";
-import HeaderClient from "../../Components/HeaderClient";
+import HeaderClient from "../../Components/Clients/HeaderClient";
 
 function LayoutDefault() {
   return (

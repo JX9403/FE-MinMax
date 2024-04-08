@@ -1,14 +1,14 @@
 import LayoutDefault from "../layout/LayoutDefault";
-import Sale from "../pages/Sale";
+import Sale from "../pages/Clients/Sale";
 import Home from "../pages/Home";
 
-import Contact from "../pages/Contact";
+import Contact from "../pages/Clients/Contact";
 import LogIn from "../pages/LogIn";
 import SignIn from "../pages/SignIn";
-import PrivateRoutes from "../Components/PrivateRoutes";
-import Cart from "../pages/Cart";
-import InfoCustomer from "../pages/InfoCustomer";
-import ProductPage from "../pages/ProductPage";
+import PrivateRoutes from "../Components/Clients/PrivateRoutes";
+import Cart from "../pages/Clients/Cart";
+import InfoCustomer from "../pages/Clients/InfoCustomer";
+import ProductPage from "../pages/Clients/ProductPage";
 
 export const routes = [
   {

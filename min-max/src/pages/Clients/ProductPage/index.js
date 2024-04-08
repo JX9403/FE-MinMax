@@ -1,5 +1,5 @@
 
-import Sidebar from "../../Components/Sidebar";
+import Sidebar from "../../../Components/Clients/Sidebar";
 import "./ProductPage.scss";
 function ProductPage() {
   return (

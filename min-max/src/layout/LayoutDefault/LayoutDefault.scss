@@ -1,13 +1,8 @@
-.layout-default{
-display: block;
-  &__header{
+.layout-default {
+  display: block;
+  width: 100vw;
+  &__header {
     height: 145px;
   }
-  &__main{
-     display: flex;
 
-     height: 100vh;
-  }
- 
 }
-
