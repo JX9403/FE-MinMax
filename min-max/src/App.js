@@ -1,11 +1,14 @@
 
 import './App.css';
-import AllRouter from './Components/AllRoute'
+import LayoutDefault from './layout/LayoutDefault';
+// import AllRouter from './Components/AllRoute'
+// import RouterM from './routesM';
+// import RouterM from './routesM';
 
 function App() {
   return (
     <>
-    <AllRouter/>
+    <LayoutDefault></LayoutDefault>
     </>
   );
 }

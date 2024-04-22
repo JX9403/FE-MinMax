@@ -9,7 +9,6 @@ import PrivateRoutes from "../Components/PrivateRoutes";
 import Cart from "../pages/Cart";
 import InfoCustomer from "../pages/InfoCustomer";
 import ProductPage from "../pages/ProductPage";
-
 export const routes = [
   {
     path: "/",

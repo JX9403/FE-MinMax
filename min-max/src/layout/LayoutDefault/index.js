@@ -1,6 +1,7 @@
 import './LayoutDefault.scss'
-import {  Outlet }from 'react-router-dom'
-import HeaderClient from '../../Components/HeaderClient'
+import HeaderManagement from '../../Components/HeaderManagement';
+import SideBarM from '../../Components/SideBarM';
+import Content from '../../Components/Content';
 
 function LayoutDefault(){
 
@@ -9,18 +10,17 @@ function LayoutDefault(){
     <>
       <div className="layout-default"> 
         <header className="layout-default__header">
-          <HeaderClient/>
+          <HeaderManagement></HeaderManagement>
         </header>
         <main className="layout-default__main">
-          
-          <div className='layout-default__content'>
-             <Outlet/>
+          <div className='layout-default__sidebar'>
+          <SideBarM></SideBarM>
           </div>
-          
-         
+          <div className='layout-default__content'>
+          <Content></Content>
+          </div>  
         </main>
         <footer className="layout-default__footer">
-          Copyright #2023
         </footer>
       </div>
     </>
